@@ -10,7 +10,7 @@ const Card = ({
           <img src={cover} alt={title} />
         </div>
         <div className="text">
-          <span className="catgeory">{catgeory}</span>
+          <span className="category">{catgeory}</span>
           <hi className="titleBg">{title}</hi>
           <div className="auther flex">
             <span>{authorName}</span>
