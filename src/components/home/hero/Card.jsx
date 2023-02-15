@@ -11,7 +11,7 @@ const Card = ({
         </div>
         <div className="text">
           <span className="category">{catgeory}</span>
-          <hi className="titleBg">{title}</hi>
+          <h1 className="titleBg"> {title}</h1>
           <div className="auther flex">
             <span>{authorName}</span>
             <span>{time}</span>
