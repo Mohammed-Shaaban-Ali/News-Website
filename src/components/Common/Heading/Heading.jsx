@@ -1,14 +1,14 @@
-import React, { Fragment } from "react";
-import "./Heading.css";
+import React from "react"
+import "./heading.css"
 
-const Heading = ({ titel }) => {
+const Heading = ({ title }) => {
   return (
-    <Fragment>
-      <div className="heading">
-        <h6>{titel}</h6>
+    <>
+      <div className='heading'>
+        <h6>{title}</h6>
       </div>
-    </Fragment>
-  );
-};
+    </>
+  )
+}
 
-export default Heading;
+export default Heading

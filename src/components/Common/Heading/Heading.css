@@ -6,7 +6,7 @@
 }
 .heading h6 {
   font-weight: 400;
-  background-color: #fb4c35;
+  background: #fb4c35;
   color: #fff;
   height: 35px;
   width: 130px;
@@ -14,5 +14,5 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  font-style: 14px;
+  font-size: 14px;
 }

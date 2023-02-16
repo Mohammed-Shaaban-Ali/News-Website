@@ -1,21 +1,26 @@
-import React, { Fragment, useState } from "react";
-import "./Hero.css";
-import { hero } from "../../../dummyData";
-import Card from "./Card";
+import React, { useState } from "react"
+import { hero } from "../../../dummyData"
+import "./hero.css"
+import Card from "./Card"
+
 const Hero = () => {
-  const [items, setItems] = useState(hero);
+  const [items, setIems] = useState(hero)
 
   return (
-    <Fragment>
-      <section className="hero">
-        <div className="container">
+    <>
+      <section className='hero'>
+        <div className='container'>
           {items.map((item) => {
-            return <Card key={item.id} item={item} />;
+            return (
+              <>
+                <Card key={item.id} item={item} />
+              </>
+            )
           })}
         </div>
       </section>
-    </Fragment>
-  );
-};
+    </>
+  )
+}
 
-export default Hero;
+export default Hero
