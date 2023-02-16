@@ -1,15 +1,30 @@
-import React from "react";
-import "./style.css";
+import React from "react"
+import Discover from "../../discover/Discover"
+import Side from "../../sideContent/side/Side"
+import Life from "../life/Life"
+import Music from "../musics/Music"
+import Popular from "../popular/Popular"
+import Ppost from "../Ppost/Ppost"
+import "./style.css"
 
-const Home = () => {
+const Homes = () => {
   return (
-    <main>
-      <div className="container">
-        <section className="mainContent"></section>
-        <section className="sideContent"></section>
-      </div>
-    </main>
-  );
-};
+    <>
+      <main>
+        <div className='container'>
+          <section className='mainContent'>
+            <Popular />
+            <Ppost />
+            <Life />
+            <Music />
+          </section>
+          <section className='sideContent'>
+            <Side />
+          </section>
+        </div>
+      </main>
+    </>
+  )
+}
 
-export default Home;
+export default Homes

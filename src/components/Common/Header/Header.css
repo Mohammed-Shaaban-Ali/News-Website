@@ -2,7 +2,7 @@
   cursor: pointer;
 }
 .head .logo img {
-  width: 500px;
+  width: 300px;
 }
 
 header {
@@ -39,12 +39,8 @@ header a {
   }
   .barIcon {
     display: block;
-    position: relative;
-    z-index: 22222;
   }
-  .head .logo img {
-    width: 100%;
-  }
+
   header .navbar {
     position: absolute;
     display: block;
@@ -53,7 +49,7 @@ header a {
     top: 21%;
     transition: 0.5s;
     width: 100%;
-    height: fit-content;
+    height: 45vh;
     z-index: 5;
     padding: 50px;
   }
