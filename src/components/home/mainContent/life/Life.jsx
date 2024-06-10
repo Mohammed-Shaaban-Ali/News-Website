@@ -28,9 +28,9 @@ const Life = () => {
         <Heading title="Life Style" />
         <div className="content">
           <Slider {...settings}>
-            {lifestyle.map((val) => {
+            {lifestyle.map((val, i) => {
               return (
-                <div className="items">
+                <div key={i} className="items">
                   <div className="box shadow">
                     <div className="images">
                       <div className="img">

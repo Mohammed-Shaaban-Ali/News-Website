@@ -23,9 +23,9 @@ const Music = () => {
           <Slider {...settings}>
             {popular
               .filter((val) => val.catgeory === "fun")
-              .map((val) => {
+              .map((val, i) => {
                 return (
-                  <div className="items">
+                  <div key={i} className="items">
                     <div className="box shadow flexSB">
                       <div className="images">
                         <div className="img">
